@@ -1,0 +1,12 @@
+Backend: (inside the CSV folder)
+open a terminal and 
+npm start
+
+Front-End: (inside the FRONT folder)
+open a new terminal and
+npm start
+
+
+Created by Bruce Bakshi
+bruce.bakshi@gmail.com
+647-694-7594

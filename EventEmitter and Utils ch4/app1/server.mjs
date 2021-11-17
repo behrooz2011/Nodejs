@@ -19,9 +19,10 @@ server.on('request', (req, res) => {
 
 server.listen(new URL(listenOn).port);
 sniffOn(server);
-console.log(`listening to ${listenOn}`);
+console.log(`listeninggggg to ${listenOn}`);
 
 function homePage(req, res) {
+    let n = "Zool";
     res.writeHead(200, {'Content-Type': 'text/html'});
     /*
         * Old way - pre Node.js 4.2.0
@@ -35,8 +36,8 @@ function homePage(req, res) {
     );
         */
     res.end(
-        `<html><head><title>Hello, world!</title></head>
-        <body><h1>Hello, world!</h1>
+        `<html><head><title>Hello, ${n}</title></head>
+        <body><h1>Hello, ${n}</h1>
         <p><a href='/osinfo'>OS Info</a></p>
         </body></html>`);
 }
